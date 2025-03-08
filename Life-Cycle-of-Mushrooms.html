@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>The Fascinating World of Mushrooms</title>
+			<style>
+				/* CSS Reset - Eric Meyer’s Reset */
+				html, body, div, span, applet, object, iframe,
+				h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+				a, abbr, acronym, address, big, cite, code,
+				del, dfn, em, img, ins, kbd, q, s, samp,
+				small, strike, strong, sub, sup, tt, var,
+				b, u, i, center, dl, dt, dd, ol, ul, li,
+				fieldset, form, label, legend, table, caption,
+				tbody, tfoot, thead, tr, th, td, article,
+				aside, canvas, details, embed, figure,
+				figcaption, footer, header, hgroup, menu,
+				nav, output, ruby, section, summary,
+				time, mark, audio, video {
+					margin: 0;
+					padding: 0;
+					border: 0;
+					font-size: 100%;
+					font: inherit;
+					vertical-align: baseline;
+				}
+
+				body {
+					font-family: 'Cardo', serif;
+					background-color: #558000;
+					color: 	  #353318;
+					line-height: 1.8;
+				}
+
+				header {
+					background: #405d27;
+					color:  #dac292;
+					text-align: center;
+					padding: 15px;
+				}
+
+				footer {
+					background: #405d27;
+					color: #F5F5DC;
+					text-align: center;
+					padding: 10px;
+					clear: both;
+				}
+
+				.container {
+					width: 80%;
+					margin: 20px auto;
+					overflow: hidden;
+					position: relative;
+					background: #8b6f47;
+					padding: 20px;
+					border-radius: 10px;
+				}
+
+				.left-column {
+					width: 50%;
+					float: left;
+					left: 20px;
+					background: #BDB76B;
+					padding: 10px;
+					margin-bottom: 20px;
+					margin-left: -10px;
+					border-radius: 9px;
+					letter-spacing: 1.1px; 
+				}
+
+				.right-column {
+					width: 19%;
+					float: left;
+					right: 20px;
+					background: #c8c384;
+					padding: 10px;
+					margin-bottom: 20px;
+					margin-left: 10px;
+					border-radius: 9px;
+					letter-spacing: 1.1px; 
+				}
+
+				.sidebar {
+					width: 20.5%;
+					position: absolute;
+					right: 183px;
+					top: 175px;
+					height: 100vh;
+					background: #d7d4a7;
+					padding: 20px;
+					border-radius: 8px;
+					overflow-y: auto;
+					letter-spacing: 1.3px; 
+				}
+
+				blockquote {
+					font-size: 1em;
+					font-family: 'Josefin Slab', serif;
+					line-height: 1.5em;
+					margin: 4% 6%;
+					padding: 2%;
+					background-color:  #446600;
+					color: #d0cc95;
+					border-left: 10px Solid Black;
+					position: relative;
+					border-radius: 20px;
+					margin-bottom: 20px;
+					margin-top: 50px;
+				}
+
+				blockquote::before {
+					content: "\201c";
+					font-size: 5em;
+					line-height: 0;
+					position: absolute;
+					left: 5px;
+					top: 5px;
+					color: #F5F5DC;
+				}
+
+				h1{
+					font-family: 'Josefin Sans', sans-serif;
+					color: #F5F5DC;
+					font-weight: bold;
+					font-size:2em;
+				}
+				
+				h2{
+					font-family: 'Josefin Sans', sans-serif;
+					color: #405d27;
+					font-weight: bold;
+					letter-spacing: 2px;
+					margin-bottom: 10px
+				}
+				p {
+					text-indent: 30px;
+					margin-bottom: 10px;
+				}
+				
+				img {
+					display: block;
+					margin: 10px auto;
+					max-width: 100%;
+					border-radius: 20px;
+				}
+
+				nav {
+						text-align: center;
+						width: 100%;
+						background: #765e3d;
+						padding: 15px;
+						position: sticky;
+						top: 0;
+						font-family: 'Poppins', sans-serif;
+						color: white;
+					}
+					nav ul {
+						padding: 0;
+						display: flex;
+						justify-content: center;
+						gap: 200px;
+					}
+					nav ul li {
+						display: inline-block;
+						position: relative;
+					}
+					nav ul li a {
+						padding: 10px 25px;
+						background-color: #446600;
+						color: #d0cc95;
+						border-radius: 100px;
+						transition: background 0.3s;
+					}
+					nav ul li a:hover {
+						background-color: #6B8E23;
+						color: #d0cc95;
+					}
+				
+				ul {
+					list-style: square;
+					list-style-position: inside;
+					padding: 0;
+					text-align: center;
+				}
+				table {
+					width: 100%;
+					border-collapse: collapse;
+					background-color: beige;
+					color: #664c1a;
+					text-align: center;
+				}
+				th, td {
+					border: 2px solid #556B2F;
+					padding: 10px;
+				}
+				th {
+					background-color: #ff758c;
+					color: white;
+					text-align: center;
+				}
+				
+			</style>
+	</head>
+		<body>
+
+			<header>
+				<h1>𓋼 𓍊 𓋼 𓍊 <u>Life Cycle of Mushrooms</u> 𓍊 𓋼 𓍊 𓋼</h1>
+			</header>
+
+				<nav>
+					<ul>
+						<li><a href="What-Are-Mushrooms.html">What are Mushrooms?</a></li>
+						<li><a href="Kinds-of-Mushrooms.html">Kinds of Mushrooms</a></li>
+						<li><a href="Terms-to-Know-and-Phrases.html">Terms and Phrases</a></li>
+						<li><a href="More-About-Mushrooms.html">More about Mushrooms</a></li>
+					</ul>
+				</nav>
+
+			<div class="container">
+				<div class="left-column">
+					<p> Mushrooms have interesting, intricate growing patters. The mushroom's life cycle is typically broken up into four parts:
+						<article>
+							<table>
+								<tr>
+									<td>Mushrooms</td>
+									<td>Spores</td>
+								</tr>
+								<tr>
+									<td>Hyphae</td>
+									<td>Mycelium</td>
+								</tr>
+							</table>
+						</article>
+						</article>
+					</p>
+						<p>The type of mushrooms come in many different structures, colors, shapes, sizes, and mechanisms of reproductionSome are edible, some are poisonous, 
+							some glow in the dark, some are squishy. Others are rock-hard, or the size of a small child,
+							or as small as your pinky nail. For sake of the ilustration, let's look at the common cap-and-stem mushrooms you see at the grocery store.
+						</p>
+						<p>These and other mushrooms function as fruiting body, which spreads its spores so that its gene pool continues. The way that this reproductive 
+							structure represents itself may vary tremendously based on the species. A mushrooms may have gills 
+							or spores to make spreading its spores easier. Every mushroom is unique, but their purpose remains the same: to spread spores.
+						</p>
+					<h2><U>Spores</U></h2>
+						<p>Once the spores are released into the enviroment, they assare carries by animals, water, or wind to new places. Some mushrooms can release 
+							millions of spores every day, giving a higher probability of success for the survival oof the organism.
+							Other species requires such specific conditions to grow that it's miraculous if a few new mushrooms sprout.Each spore released contains 50 
+							percent of the DNA required to reproduce. In order to find that second 50 percent, the spore will tran
+							sform into a new structure: a hypha.
+						</p>
+					<h2><U>Hyphae</U></h2>
+						<p>Once spores land in an appropiate growing medium, such as soil, wood, an insect, or dung, they will germinate and become hyphae. Hyphae are
+							one-celled filamentous probes that push though the organic material in search of a suitable partner. 
+							Most living organisms, including primitive fungi, have two mating types.
+							Generally, this means that only one mating type (commonly refferred to as "male") may reproduce with one other specific mating type
+							(a "female). Fungi have a much wider net of potential reproductive partners. Some fungi have upto 23, 328 
+							mating types,  meaning each hypha or spore has thousands of differernt mating options available to them.
+							Once just one of these possible combinations happens, the organism moves to the next stage of life.
+						</p>
+				</div>
+			<div class="right-column">
+					<h2><u>Mycelium</u></h2>
+					<p>After the Hyphae fuse, they create a massive web-like structure, known  to grow as large as 2,384 acres, called mycelium. Mycelium's role in
+					the ecosystem is to excrete enzymes which decompose eveything in the vicinity and then use the broken-down
+					nutrients to grow. When the mycelium encounters a threat, knows it's runing out of food, 
+						or the outside enviroment is just right, it will produce structures called mushrooms. The lfe cycle then begins again. 
+					</p>
+				</div>
+			</div>
+
+			<div class="sidebar">
+				<h2><u>Mushroom Life Cycle</u></h2>
+				
+					<figure>
+							<figcaption>Mushroom Life Cycle</figcaption>
+							<a href="https://forestorigins.com/blogs/blog/the-mushroom-life-cycle" target="_blank">
+									<img src="https://forestorigins.com/cdn/shop/articles/Forest_origins_mushroom_life_cycle_copyright.png?v=1671015312" alt="Description of Image" width="300">
+							</a>
+					</figure>
+						<blockquote><p> Hidden within topsoil, invisible microbial and fungal communities make sensitive sentient networks that connect forest organisms and 
+									regulate nutrient distribution among plants and trees. Fungi are largely responsible for recycling decaying
+									matter into soil and eradicating pollutants from ecosystems; yet their life cycle defies our current understanding. Their ability to exist in states
+									between life and death.- Mycelium Network #12, Sarah Hearn.
+						</p></blockquote>
+					<figure>
+						<figcaption> Mycelium Network </figcaption>
+						<a href="https://www.artspace.com/sarah-hearn/mycelium-network-12" target="_blank">
+							<img src="https://d5wt70d4gnm1t.cloudfront.net/media/a-s/artworks/sarah-hearn/105808-916068035961/sarah-hearn-mycelium-network-12-800x800.jpg" alt="Link to Image Source" width="300">
+						</a>
+					</figure>
+			</div>
+
+			<footer>
+				<p>© 2025 Mushroom Knowledge Hub. All rights reserved. </p>
+			</footer>
+
+		</body>
+</html>
